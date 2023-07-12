@@ -1,0 +1,24 @@
+.container {
+    width: 538px;
+  }
+  section,
+  aside {
+    margin: 1.858736059%; /*  10px ÷ 538px = .018587361 */
+  }
+  section {
+    float: left;
+    width: 63.197026%;    /* 340px ÷ 538px = .63197026 */   
+  }
+  aside {
+    float: right;
+    width: 29.3680297%;  /* 158px ÷ 538px = .293680297 */
+  }
+
+
+
+  section,
+  aside {
+    background-color: rgb(152, 234, 152);
+    border-radius: 5%;
+    border: 1px solid black;
+  }
