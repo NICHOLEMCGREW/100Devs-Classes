@@ -30,7 +30,8 @@ console.log(oneNum(64))
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
 
 function summerYay(month) {
-    if (month == 'june' || month == 'july' || month == 'august') {
+    let monthLowerCase = month.toLowerCase()
+    if (monthLowerCase == 'june' || monthLowerCase == 'july' || monthLowerCase == 'august') {
         return 'YAY';
     } else {
         return 'Booo'
@@ -43,10 +44,10 @@ console.log(summerYay('july'))
 
 function skipFive(num) {
     for (let i = 1; i <= num; i++) {
-        if (num % 5 !== 0) {
+        if (i % 5 !== 0) {
             console.log(i)
         }
     }
 }
 
-console.log(skipFive(69))
+console.log(skipFive(20))
